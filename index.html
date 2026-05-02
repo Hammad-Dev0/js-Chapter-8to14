@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 1-14 </title>
+    <!-- Toastify css link-->
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- cdn tailwind -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <!-- js link file -->
+      <script src="js/script.js" defer></script>
+</head>
+<body class="bg-[#F1FAEE]">
+    <!-- header of the page -->
+    <header class="bg-purple-950">
+  <!-- Navbar -->
+  <nav class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between 
+              text-white p-4 w-full md:w-[80%] mx-auto">
+    
+    <!-- Left content -->
+    <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-8 text-center sm:text-left">
+      <h1 class="font-bold text-[18px]">Assignments</h1>
+      <p>Chapter 1–14</p>
+    </div>
+
+    <!-- Search form -->
+    <form class="flex flex-col sm:flex-row gap-2 w-full sm:w-auto">
+      <input 
+        type="text" 
+        placeholder="Search" 
+        class="border rounded px-4 py-1 bg-white text-black outline-none w-full sm:w-auto"
+      >
+      <button 
+        class="border rounded px-4 py-1 hover:bg-white hover:text-black 
+               transition-all duration-500 cursor-pointer"
+      >
+        Search
+      </button>
+    </form>
+
+  </nav>
+</header>
+
+    <!-- main content of the page -->
+    <main class="w-[80%] m-auto">
+      <!-- main heading -->
+       <h1 class="text-center text-[22px] pt-8 font-[500]">Chapter # 1-14 | Introduction to Javascript | Data Type | Alert|Arithmatic Operators | Concatination | if Else | if Else if | Testing Set of Condition | if Statement Nested | Login | Check</h1>
+       <hr class="mt-2 border-gray-500">
+
+       <!-- Buttons -->
+        <div class="text-center border rounded min-h-[100px] mt-12 border-gray-500 pb-4">
+        <button class="border rounded bg-red-500 text-white mt-4 px-2 py-1 text-[14px] hover:bg-red-700 cursor-pointer" id="btn-1">Alert Name</button>
+        <button class="border rounded bg-red-500 text-white mt-4 px-2 py-1 text-[14px] hover:bg-red-700 cursor-pointer" id="btn-2">Alert Number</button>
+        <button class="border rounded bg-red-500 text-white mt-4 px-2 py-1 text-[14px] hover:bg-red-700 cursor-pointer" id="btn-3">Show Variable Name</button>
+        <button class="border rounded bg-red-500 text-white mt-4 px-2 py-1 text-[14px] hover:bg-red-700 cursor-pointer" id="btn-4">Show Camel Case Examples</button>
+        <button class="border rounded bg-red-500 text-white mt-4 px-2 py-1 text-[14px] hover:bg-red-700 cursor-pointer" id="btn-5">Sum 2 Number</button>
+        <button class="border rounded bg-red-500 text-white mt-4 px-2 py-1 text-[14px] hover:bg-red-700 cursor-pointer" id="btn-6">Subtract 2 Number</button>
+        <button class="border rounded bg-red-500 text-white mt-4 px-2 py-1 text-[14px] hover:bg-red-700 cursor-pointer" id="btn-7">Multiply 2 Number</button>
+        <button class="border rounded bg-red-500 text-white mt-4 px-2 py-1 text-[14px] hover:bg-red-700 cursor-pointer" id="btn-8">Divide 2 Number</button>
+        <button class="border rounded bg-red-500 text-white mt-4 px-2 py-1 text-[14px] hover:bg-red-700 cursor-pointer" id="btn-9">Calculate Some Number</button>
+        <button class="border rounded bg-red-500 text-white mt-4 px-2 py-1 text-[14px] hover:bg-red-700 cursor-pointer" id="btn-10">Concatinate Some Strings</button>
+        <button class="border rounded bg-red-500 text-white mt-4 px-2 py-1 text-[14px] hover:bg-red-700 cursor-pointer" id="btn-11">Ask From User</button>
+        <button class="border rounded bg-red-500 text-white mt-4 px-2 py-1 text-[14px] hover:bg-red-700 cursor-pointer" id="btn-12">Comparison Operators</button>
+        <button class="border rounded bg-red-500 text-white mt-4 px-2 py-1 text-[14px] hover:bg-red-700 cursor-pointer" id="btn-13">if Else if</button>
+        <button class="border rounded bg-red-500 text-white mt-4 px-2 py-1 text-[14px] hover:bg-red-700 cursor-pointer" id="btn-14">Testing Set of Condition</button>
+        <button class="border rounded bg-red-500 text-white mt-4 px-2 py-1 text-[14px] hover:bg-red-700 cursor-pointer" id="btn-15">if Statement Nested</button>
+        <button class="border rounded bg-red-500 text-white mt-4 px-2 py-1 text-[14px] hover:bg-red-700 cursor-pointer" id="btn-16">Login</button>
+        <button class="border rounded bg-red-500 text-white mt-4 px-2 py-1 text-[14px] hover:bg-red-700 cursor-pointer" id="btn-17">Check</button>
+
+        </div>
+
+        <!-- Orignal Statement -->
+         <h1 class="text-center mt-6 text-[22px] font-[500]">Original Statement</h1>
+         <div class="mt-8 border rounded border-gray-500 min-h-[50px] text-center p-4" id="statement">
+
+         </div>
+         <div class="flex justify-center mt-2">
+        <button class="border rounded bg-transparent text-black mt-4 px-2 py-1 text-[14px] hover:bg-red-700 hover:text-white transition-all duration-500 cursor-pointer" id="clear">Clear Statement</button>
+         </div>
+
+         <!-- output / Result -->
+          <h1 class="text-center mt-6 text-[22px] font-[500]">Output/Result</h1>
+         <div class="mt-8 border rounded border-gray-500 min-h-[50px] p-4" id="output">
+
+         </div>
+
+         <div class="flex justify-center mt-2">
+        <button class="border rounded bg-transparent text-black mt-4 px-2 py-1 text-[14px] hover:bg-red-700 hover:text-white transition-all duration-500 cursor-pointer" id="clear1">Clear Output</button>
+         </div>
+    </main>
+    <!-- footer of the page -->
+    <footer class="bg-purple-950 p-2 mt-8 text-white  text-center">
+     <p class="w-[80%] m-auto text-[14px]">&copy;2026. Assignment By <span class="font-[500]">www.umairahmad.net</span> </p>
+    </footer>
+</body>
+<!-- Toastify js -->
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<!-- tailwind js -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>
